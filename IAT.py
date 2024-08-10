@@ -48,7 +48,7 @@ postit.click()
 sleep(1)
 next = driver.find_element("xpath","/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[1]/div/div/div/button")
 next.click()
-sleep(4)
+sleep(3)
 for i in range(1,20,1):
 
     like = driver.find_element("xpath","/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[2]/div/div/div[2]/section[1]/span[1]/button")
@@ -70,5 +70,5 @@ for i in range(1,20,1):
     next.click()
     sleep(4)
 
-sleep(30)
+sleep(20)
 
